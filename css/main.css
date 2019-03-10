@@ -2245,33 +2245,32 @@ html.no-csstransitions .home-content__main {
   top: 0;
   left: calc(50% + 20px + 24px);
 }
-.process h4 {
-  font-size: 2.8rem;
-  line-height: 1.5;
-  margin-top: 0;
-  position: relative;
-}
-.process__col {
-  position: relative;
-  min-height: 24.6rem;
-}
-.process__col::before {
-  content: attr(data-item);
-  display: block;
-  font-family: "metropolis-semibold", sans-serif;
-  font-size: 2.1rem;
-  text-align: center;
-  color: #ffffff;
-  background-color: #3498db;
-  height: 48px;
-  width: 48px;
-  line-height: 48px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 18px #ffffff;
-  position: absolute;
-  left: 20px;
-  top: 0;
-}
+  .process h4 {
+    font-size: 2.8rem;
+    line-height: 1.5;
+    margin-top: 0;
+    position: relative;
+  }
+  .process__col {
+    position: relative;
+    min-height: 24.6rem;
+  }
+  .process__col::before {
+    content: attr(data-item);
+    display: block;
+    font-family: "metropolis-semibold", sans-serif;
+    font-size: 2.1rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3498db;
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 0;
+  }
 .process__text {
   margin-left: 7.5rem;
   padding-right: 30px;
